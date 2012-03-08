@@ -3,20 +3,20 @@ This is a simple two file library for CodeIgniter so that application users can 
 While this library does provide the ability to query user information from the LDAP server, it is very limited. I wouldn't expect this software to be bug free.
 
 ##What you'll need:
--ldap_auth.php \n
--ldap_auth_config.php \n
+-ldap_auth.php
+-ldap_auth_config.php
 I'll assume that you'll be using this with a application you wrote in the CodeIgniter Framework for PHP 
 
 ##Usage
-In order to use this plugin you must first initalize it in your controller: \n
+In order to use this plugin you must first initalize it in your controller: 
 ```php
 $this->load->library('ldap_auth');
-```\n
-Then you can call:\n
+```
+Then you can call:
 ```php
 $this->LDAP_auth->auth($username,$password);
-```\n
-or\n
+```
+or
 ```php
 $this->LDAP_auth->info($username);
 ```
