@@ -28,3 +28,5 @@ or
 ```php
 $this->LDAP_auth->info($username);
 ```
+
+[![endorse](http://api.coderwall.com/dwaynehale/endorse.png)](http://coderwall.com/dwaynehale)
