@@ -19,14 +19,14 @@ $this->load->library('ldap_auth');
 Then you can call:
 
 ```php
-$this->LDAP_auth->auth($username,$password);
+$this->ldap_auth->auth($username,$password);
 ```
 
 or
 
 
 ```php
-$this->LDAP_auth->info($username);
+$this->ldap_auth->info($username);
 ```
 
 [![endorse](http://api.coderwall.com/dwaynehale/endorse.png)](http://coderwall.com/dwaynehale)
