@@ -28,5 +28,5 @@ or
 ```php
 $this->ldap_auth->info($username);
 ```
-### If you find an issue/bug with this repository, feel free to open a issue. I'll get to it when I can.
+If you find an issue/bug with this repository, feel free to open a issue. I'll get to it when I can.
 [![endorse](http://api.coderwall.com/dwaynehale/endorse.png)](http://coderwall.com/dwaynehale)
