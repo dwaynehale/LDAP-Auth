@@ -9,7 +9,7 @@ While this library does provide the ability to query user information from the L
 
 I'll assume that you'll be using this with a application you wrote in the CodeIgniter Framework for PHP 
 
-You will need to rename ldap_auth_config.php to ldap_auth.php once placed in the config directory
+You will need to rename ldap_auth_config.php to ldap_auth.php once placed in the config directory.
 
 ##Usage
 In order to use this plugin you must first initalize it in your controller:
